@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Алина Зиганшина — дизайн карточек для Wildberries и Ozon. Работаю удалённо по всей России.">
+  <title>Алина Зиганшина — графический дизайн</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="logo" href="#top">
+        <span class="logo__name">Алина Зиганшина</span>
+        <span class="logo__tagline">Графический дизайнер</span>
+      </a>
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#portfolio">Работы</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+      <a class="btn btn--small header__cta" href="#contact">Написать</a>
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+      <a href="#services">Услуги</a>
+      <a href="#portfolio">Работы</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contact">Контакты</a>
+      <a class="mobile-nav__cta btn" href="#contact">Написать</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">Работаю удалённо по всей России</p>
+          <h1>Карточки, которые помогают <em>продавать</em> на WB и Ozon</h1>
+          <p class="hero__text">
+            Инфографика, тексты, упаковка и баннеры для маркетплейсов.
+            Созвоны и согласование онлайн — удобно из любого города.
+          </p>
+          <div class="hero__actions">
+            <a class="btn" href="#contact">Обсудить проект</a>
+            <a class="btn btn--ghost" href="#portfolio">Смотреть работы</a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <img class="hero__img hero__img--1" src="png/nobg/boxes-kimoto.png" alt="Дизайн упаковки — коробки KIMOTO">
+          <img class="hero__img hero__img--2" src="png/nobg/cards-ava.png" alt="Визитка AVA Group">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head">
+          <h2>Мои услуги</h2>
+          <p class="section__lead">Точная сумма после обсуждения задачи и объёма.</p>
+        </div>
+
+        <div class="service-group">
+          <div class="cards cards--3">
+            <article class="card">
+              <div class="card__icon" aria-hidden="true">01</div>
+              <h4>Карточки товаров</h4>
+              <p>Главное фото, инфографика, единый стиль витрины для Wildberries и Ozon.</p>
+              <p class="card__price">от 1 500 ₽ <span>за один слайд</span></p>
+            </article>
+            <article class="card">
+              <div class="card__icon" aria-hidden="true">02</div>
+              <h4>Rich-контент</h4>
+              <p>Инфографика, слайды, сравнения и акценты — всё, что повышает кликабельность карточки.</p>
+              <p class="card__price">от 1 200 ₽ <span>за слайд</span></p>
+            </article>
+            <article class="card">
+              <div class="card__icon" aria-hidden="true">03</div>
+              <h4>Баннеры и промо</h4>
+              <p>Баннеры для акций, распродаж и рекламных кампаний.</p>
+              <p class="card__price">от 1 800 ₽ <span>за макет</span></p>
+            </article>
+            <article class="card">
+              <div class="card__icon" aria-hidden="true">04</div>
+              <h4>Дизайн упаковки</h4>
+              <p>Эскиз упаковки (по готовому чертежу). Этикетка, макет под печать с учётом требований производства.</p>
+              <p class="card__price">от 12 000 ₽ <span>за проект</span></p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Портфолио</p>
+          <h2>Примеры работ</h2>
+          <p class="section__lead">Карточки для маркетплейсов, упаковка, визитки и фирменный стиль.</p>
+        </div>
+
+        <div class="filters" role="tablist" aria-label="Фильтр портфолио">
+          <button class="filter is-active" type="button" data-filter="all">Все</button>
+          <button class="filter" type="button" data-filter="marketplace">Маркетплейсы</button>
+          <button class="filter" type="button" data-filter="packaging">Дизайн упаковки</button>
+          <button class="filter" type="button" data-filter="brand">Бренд</button>
+        </div>
+
+        <div class="portfolio">
+          <figure class="portfolio__item" data-category="marketplace">
+            <div class="portfolio__thumb">
+              <img src="%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D1%8B/%D0%91%D1%83%D0%BC%D0%B0%D0%B3%D0%B0%201.jpg" alt="Бумага — карточка для маркетплейса" loading="lazy">
+            </div>
+          </figure>
+          <figure class="portfolio__item" data-category="marketplace">
+            <div class="portfolio__thumb">
+              <img src="%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D1%8B/%D0%9A%D0%B0%D1%82%D1%83%D1%88%D0%BA%D0%B0%20SOLID%204000%201.1.jpg" alt="Катушка SOLID 4000 — карточка для маркетплейса" loading="lazy">
+            </div>
+          </figure>
+          <figure class="portfolio__item" data-category="marketplace">
+            <div class="portfolio__thumb">
+              <img src="%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D1%8B/%D0%9A%D0%B0%D1%82%D1%83%D1%88%D0%BA%D0%B0%20ZETA%203000%201.png" alt="Катушка ZETA 3000 — карточка для маркетплейса" loading="lazy">
+            </div>
+          </figure>
+          <figure class="portfolio__item" data-category="packaging">
+            <div class="portfolio__thumb">
+              <img src="%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD/IMG_0659.jpg" alt="Дизайн упаковки" loading="lazy">
+            </div>
+          </figure>
+          <figure class="portfolio__item" data-category="packaging">
+            <div class="portfolio__thumb">
+              <img src="%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD/kimoto-box-photo.jpg" alt="Дизайн упаковки — коробка KIMOTO" loading="lazy">
+            </div>
+          </figure>
+          <figure class="portfolio__item" data-category="packaging">
+            <div class="portfolio__thumb">
+              <img src="%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD/kimoto-frost-realistic.png" alt="Дизайн упаковки — коробка KIMOTO Frost" loading="lazy">
+            </div>
+          </figure>
+          <figure class="portfolio__item" data-category="brand">
+            <div class="portfolio__thumb">
+              <img src="%D0%91%D1%80%D0%B5%D0%BD%D0%B4/1%20%D0%B2%D0%B0%D1%80%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0.jpg" alt="Дизайн для бренда — вариант 1" loading="lazy">
+            </div>
+          </figure>
+          <figure class="portfolio__item" data-category="brand">
+            <div class="portfolio__thumb">
+              <img src="%D0%91%D1%80%D0%B5%D0%BD%D0%B4/3%20%D0%B2%D0%B0%D1%80%20%D1%81%D0%B0%D0%B9%D1%82.jpg" alt="Дизайн для бренда — вариант 3" loading="lazy">
+            </div>
+          </figure>
+          <figure class="portfolio__item" data-category="brand">
+            <div class="portfolio__thumb">
+              <img src="%D0%91%D1%80%D0%B5%D0%BD%D0%B4/%D0%92%D0%B8%D0%B7%D0%B8%D1%82%D0%BA%D0%B0%202.jpg" alt="Визитка" loading="lazy">
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--beige" id="clients">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Клиенты</p>
+          <h2>С кем работаем</h2>
+        </div>
+        <div class="clients">
+          <div class="clients__item">Продавцы на WB и Ozon</div>
+          <div class="clients__item">Малый и средний бизнес</div>
+          <div class="clients__item">Бренды и производители</div>
+          <div class="clients__item">По всей России</div>
+        </div>
+        <p class="clients__note">Работаю удалённо. Встречи и созвоны онлайн.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Процесс</p>
+          <h2>Как работаем</h2>
+        </div>
+        <ol class="steps">
+          <li>
+            <span class="steps__num">1</span>
+            <h3>Заявка</h3>
+            <p>Пишете в Telegram или на почту — кратко описываете задачу.</p>
+          </li>
+          <li>
+            <span class="steps__num">2</span>
+            <h3>Бриф и расчёт</h3>
+            <p>Уточняем детали, сроки и финальную стоимость от озвученной «от …».</p>
+          </li>
+          <li>
+            <span class="steps__num">3</span>
+            <h3>Работа и правки</h3>
+            <p>Делаю макеты, согласуем правки в рамках задачи.</p>
+          </li>
+          <li>
+            <span class="steps__num">4</span>
+            <h3>Сдача</h3>
+            <p>Отдаю файлы в нужных форматах — готово к публикации или печати.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section--beige" id="reviews">
+      <div class="container reviews">
+        <div class="section__head">
+          <h2>Что говорят клиенты</h2>
+        </div>
+
+        <div class="reviews__grid">
+          <div class="reviews__list-wrap">
+            <div class="reviews__list" id="reviews-list" aria-live="polite">
+              <p class="reviews__empty">Загружаем отзывы…</p>
+            </div>
+            <nav class="reviews__pagination" id="reviews-pagination" aria-label="Страницы отзывов" hidden></nav>
+          </div>
+
+          <div class="review-form-wrap">
+            <p class="review-form__setup" id="review-setup-note" hidden>
+              Чтобы отзывы работали, нужно один раз подключить бесплатную базу Supabase — напишите, помогу настроить.
+            </p>
+            <form class="review-form" id="review-form">
+              <h3>Оставить отзыв</h3>
+              <label class="review-form__field">
+                <span>Ваше имя</span>
+                <input type="text" name="author_name" maxlength="50" autocomplete="name" required>
+              </label>
+              <label class="review-form__field">
+                <span>Отзыв</span>
+                <textarea name="text" rows="5" maxlength="300" required placeholder="Кратко о работе, сроках и результате (до 300 символов)"></textarea>
+              </label>
+              <label class="review-form__honeypot" aria-hidden="true">
+                <span>Сайт</span>
+                <input type="text" name="website" tabindex="-1" autocomplete="off">
+              </label>
+              <button class="btn" type="submit">Отправить отзыв</button>
+              <p class="review-form__status" id="review-status" role="status"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--contact" id="contact">
+      <div class="container contact">
+        <div class="contact__info">
+          <p class="eyebrow">Контакты</p>
+          <h2>Обсудим ваш проект</h2>
+          <p>Работаю удалённо по всей России. Напишите — отвечу и уточню стоимость.</p>
+          <div class="contact__links">
+            <a class="contact__link" href="https://t.me/Alina4_10" target="_blank" rel="noopener noreferrer">
+              <span>Telegram</span>
+              <small>@Alina4_10</small>
+            </a>
+            <a class="contact__link" href="mailto:ziganshina.design@gmail.com">
+              <span>Email</span>
+              <small>ziganshina.design@gmail.com</small>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© 2026 Алина Зиганшина</p>
+      <a href="#top">Наверх</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js"></script>
+  <script src="js/reviews.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
